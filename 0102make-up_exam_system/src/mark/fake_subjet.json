@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "subject_num": "國文"
+    },
+    {
+      "id": 2,
+      "subject_num": "數學"
+    },
+    {
+      "id": 3,
+      "subject_num": "英文"
+    },
+    {
+      "id": 4,
+      "subject_num": "地理"
+    },
+    {
+      "id": 5,
+      "subject_num": "歷史"
+    },
+    {
+      "id": 6,
+      "subject_num": "公民"
+    },
+    {
+      "id": 7,
+      "subject_num": "物理"
+    },
+    {
+      "id": 8,
+      "subject_num": "地科"
+    }
+  ]
+}
