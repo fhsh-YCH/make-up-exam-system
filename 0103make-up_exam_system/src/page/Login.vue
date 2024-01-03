@@ -1,4 +1,5 @@
 <script setup>
+import { useRouter } from "vue-router"; // vue-router
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
@@ -34,19 +35,34 @@ const loginWithGoogle = async () => {
     window.location.href = "/register";
   }
 };
+// const loginWithGoogle = async () => {
+//   try {
+//     const provider = new GoogleAuthProvider();
+//     const afterSignIn = await signInWithPopup(auth, provider);
+
+//     console.log(afterSignIn);
+//     console.log("Success!");
+//   } catch (error) {
+//     console.error("Fail!", error);
+//   }
+
+//   function redirectToNextPage() {
+//     router.push("/register");
+//   }
+// };
 </script>
 
 <template>
   <div class="h-screen bg-[#FBFAF8]">
-    <div class="p-10"></div>
+    <div class="p-8 lg:p-10"></div>
     <!-- title -->
     <div>
-      <span class="lg:text-5xl lg:font-bold text-[#3C414E] pl-24"
+      <span class="lg:text-5xl text-3xl font-bold text-[#3C414E] pl-8 lg:pl-24"
         >補考登記系統</span
       >
-      <div class="p-2"></div>
-      <div class="pl-32">
-        <div class="bg-[#3c414e] w-72 h-1 rounded-full"></div>
+      <div class="p-1 lg:p-2"></div>
+      <div class="pl-14 lg:pl-32">
+        <div class="bg-[#3c414e] w-48 lg:w-72 h-1 rounded-full"></div>
       </div>
     </div>
 
@@ -57,10 +73,12 @@ const loginWithGoogle = async () => {
         <div class="">
           <img
             src="../assets/search_rounded.png"
-            class="w-30 h-30 lg:w-60 lg:h-60"
+            class="w-48 h-48 lg:w-60 lg:h-60"
           />
           <div class="p-2"></div>
-          <span class="text-[#3c414e] text-4xl font-bold">Login</span>
+          <span class="text-[#3c414e] text-3xl lg:text-4xl font-bold"
+            >Login</span
+          >
         </div>
       </button>
     </div>
