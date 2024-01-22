@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "subject_name": "國文",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 2,
+      "subject_name": "數學",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 3,
+      "subject_name": "英文",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 4,
+      "subject_name": "地理",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 5,
+      "subject_name": "歷史",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 6,
+      "subject_name": "公民",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 7,
+      "subject_name": "物理",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    },
+    {
+      "id": 8,
+      "subject_name": "地科",
+      "isButtonClicked": false,
+      "buttonText": "登記"
+    }
+  ]
+}
